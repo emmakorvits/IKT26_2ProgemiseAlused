@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Kirjuta enda vanus");
 
             //peate kasutama if and else lauseid,
             //et kontrollida, kas kasutaja vanus
