@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Genereerib numbreid ühest kuueni");
 
-            //Genereerib juhuslikke numbreid 1 kuni 6
+            
             int randomNumber = new Random().Next(1, 7);
 
             //kasutada switchi
@@ -30,6 +30,9 @@
                     break;
                 case 6:
                     Console.WriteLine("Number on 6");
+                    break;
+                default:
+                    Console.WriteLine("ERROR");
                     break;
             }
         }
