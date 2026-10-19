@@ -23,7 +23,7 @@
                     Console.WriteLine("Sisestasid numbri 30");
                     break;
                 default:
-                    Console.WriteLine("Sisestasid muu numbri");
+                    Console.WriteLine("Sisestasid muu numbri: " + input);
                     break;
             }
         }
