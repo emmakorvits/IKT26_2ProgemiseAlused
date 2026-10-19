@@ -25,7 +25,14 @@
                     break;
 
                 case "/":
-                    Console.WriteLine("Vastus on: " + (input1 / input2));
+                    if (input1 == 0)
+                    {
+                        Console.WriteLine("Nulliga ei saa jagada");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Vastus on: " + (input1 / input2));
+                    }
                     break;
 
                 case "+":
