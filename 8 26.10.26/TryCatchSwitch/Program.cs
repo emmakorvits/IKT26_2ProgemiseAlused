@@ -25,7 +25,11 @@
             catch (FormatException)
             {
                 Console.WriteLine("Palun sisesta number");
-                throw;
+            }
+            //antud juhul on lubatud maksimaalselt 32-bit-ne number
+            catch
+            {
+                Console.WriteLine("Number on liiga suur");
             }
         }
     }
