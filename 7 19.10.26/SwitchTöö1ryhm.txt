@@ -1,0 +1,56 @@
+namespace SwitchTöö1ryhm
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Sisesta esimene number!");
+            float input1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Tehakse liitmistehe, sisesta +");
+            string input = Console.ReadLine();
+
+            Console.WriteLine("Sisesta teine number!");
+            float input2 = float.Parse(Console.ReadLine());
+
+            switch (input)
+            {
+                case "+":
+                    Console.WriteLine("Vastus on " + (input1 + input2));
+                    break;
+
+                default:
+                    Console.WriteLine("Tehe ei vasta nõuete või vastuseks on 0");
+                    break;
+            }
+
+            Console.WriteLine("Kutsu välja meetod!");
+            Console.WriteLine("Sisesta meetod ja vajuta enter");
+
+            string meetod = Console.ReadLine();
+
+            switch (meetod)
+            {
+                case "meetod":
+                    Console.WriteLine("Auh");
+                    Console.WriteLine("Meetod kutsuti välja");
+                    break;
+                default:
+                    Console.WriteLine("Meetod ei kutsutud välja");
+                    break;
+            }
+
+            Console.WriteLine("Mis on sinu nimi");
+
+            string nimi = (Console.ReadLine());
+
+            switch (nimi)
+            {
+                case "nimi":
+                    Console.WriteLine("Sinu nimi on " + nimi);
+                    break;
+            }
+
+        }
+    }
+}
