@@ -12,7 +12,7 @@
 
             while (word != "yes")
             {
-                Console.WriteLine("sisesta sõna");
+                Console.WriteLine("Sisesta sõna");
                 word = Console.ReadLine();
             }
             Console.WriteLine("yes indeed");
