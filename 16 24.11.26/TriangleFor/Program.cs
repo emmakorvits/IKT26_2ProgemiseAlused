@@ -16,7 +16,7 @@
             {
                 for (j = 0; j <= i; j++)
                 {
-                    Console.WriteLine("*");
+                    Console.Write("*");
                 }
                 Console.Write("\n");
             }
